@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consultings_fr",
+  "info": {
+    "singularName": "consulting-fr",
+    "pluralName": "consultings-fr",
+    "displayName": "consultingFr",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "digital": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
