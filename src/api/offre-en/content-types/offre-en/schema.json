@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offre_ens",
+  "info": {
+    "singularName": "offre-en",
+    "pluralName": "offre-ens",
+    "displayName": "offreEn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}
